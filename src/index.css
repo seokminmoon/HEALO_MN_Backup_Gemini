@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* 스크롤바가 없어도 스크롤바 영역을 미리 확보해서 레이아웃 밀림 방지 */
+  scrollbar-gutter: stable;
+}
